@@ -22,6 +22,10 @@ public class Repetitive_structure_FOR {
 			System.out.println("Value of i: " + i);
 		}
 		
+		for (int i = 4; i >= 0; i--) {
+			System.out.println("Value of i: " + i);
+		}
+		
         sc.close();
 
 	}
