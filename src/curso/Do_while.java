@@ -13,7 +13,7 @@ public class Do_while {
 		char resp;
 		do {
 			
-			System.out.println("Enter the temperature in Celsius");
+			System.out.println("Enter the temperature in Celsius: ");
 			double C = sc.nextDouble();
 			double F = 9.0 * C / 5.0 + 32.0;
 			System.out.printf("Fahrenheit equivalent: %.1f\n", F);
