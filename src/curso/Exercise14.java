@@ -11,8 +11,6 @@ public class Exercise14 {
 		
 		int N = sc.nextInt();
 		
-		int div = 0;
-		
 		for (int i = 1; i <= N; i++) {
 			if (N % i == 0) {
 			   System.out.println(i);
