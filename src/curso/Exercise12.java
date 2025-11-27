@@ -13,22 +13,20 @@ public class Exercise12 {
 		Scanner sc = new Scanner (System.in);
 		
 		int N = sc.nextInt();
-		double divisor = 0;
 		
 		for (int i = 0; i < N; i++) {
-	       Double x = sc.nextDouble();
-	       Double y = sc.nextDouble();
-	        
-	       if (x == 0 || y == 0) {
+			
+	       int x = sc.nextInt();
+	       int y = sc.nextInt();
+	       
+	       if (y == 0) {
 	    	   System.out.println("Impossible to divide");
 	       }
 	       else {
-	    	   divisor = x / y;
+	    	   double div = (double) x / y;
+	    	   System.out.printf("%.1f ", div);
 	       }
 	       
-	       System.out.println(String.format("%.1f", divisor));
-	       
-	   
 		}
 		
 		sc.close();
