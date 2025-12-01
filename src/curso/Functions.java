@@ -35,7 +35,7 @@ public class Functions {
 	}
 	
    public static void showResult(int value) {
-	   System.out.println("Higher = " + value);
+	   System.out.println("Higher is = " + value);
    }
 
 }
