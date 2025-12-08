@@ -15,7 +15,7 @@ public class Program {
 		
 		Product product = new Product();
 		
-		System.out.println("Enter product data: ");
+		System.out.println("Insert product data: ");
 		System.out.print("Name: ");
 		product.name = sc.nextLine();
 		System.out.print("Price: ");
@@ -27,7 +27,7 @@ public class Program {
 		System.out.println("Product data: " + product);
 		
 		System.out.println();
-		System.out.print("Enter the number of products to be added in stock: ");
+		System.out.print("Insert the number of products to be added in stock: ");
 		int quantity = sc.nextInt();
 		product.addProducts(quantity);
 		
