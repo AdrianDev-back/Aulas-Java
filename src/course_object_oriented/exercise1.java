@@ -15,7 +15,7 @@ public class exercise1 {
 		
 		Rectangle rect = new Rectangle();
 		
-		System.out.println("Enter rectangle width and height");
+		System.out.println("Insert rectangle width and height");
 		rect.width = sc.nextDouble();
 		rect.height = sc.nextDouble();
 		
