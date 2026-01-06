@@ -19,7 +19,7 @@ public class exercise2 {
 		emp.name = sc.nextLine();
 		System.out.print("Gross salary: ");
 		emp.grossSalary = sc.nextDouble();
-		System.out.print("Tax = ");
+		System.out.print("Tax: ");
 		emp.tax = sc.nextDouble();
 		
 		System.out.println();
